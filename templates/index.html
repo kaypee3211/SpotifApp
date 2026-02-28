@@ -1,1 +1,151 @@
-<!-- //siema asdasdads-->
+ <!DOCTYPE html>
+ <html lang="pl">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+ </head>
+ <body>
+    <!-- <header>
+        <div>
+            <p>Top tracks</p>
+            <p>Top artists</p>
+            <p>My account</p>
+            <p>My music taste</p> 
+        </div>
+    </header> -->
+    <!-- <h1>Hi {{spotify_name}}</h1>
+    <p>Country: {{cou}}</p>
+    <p>Followers: {{f.total}}</p>
+    <p>Profile pic: <br><img src="{{ n[0].url }}" alt="Profile picture" width="200"></p> -->
+
+    <div class="welcome">
+        <h1>Spotify app</h1>
+        <p>made by kaypee322</p>
+    </div>
+
+    <main class="main1">
+        <h2>Hiii {{spotify_name}}!</h2>
+        <div class="image">
+            
+            <img src="m.jpg" width="200px" alt="">
+            <p>You look awesome!!</p>
+        </div>
+    </main>
+    <main class="main2">
+    <h1>Lets start with your favorite artists</h1>
+    <section>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+    </section>
+    <h1>and tracks</h1>
+    <section>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+        <div class="window">
+            <p>1.song</p>
+            <img src="m.jpg" width="150px" alt="">
+        </div>
+    </section>
+    </main>
+    <div class="genre">
+        <p>Now lets check your favorite genre:</p>
+    </div>
+<!-- 
+    <h2 class="top">Your {{ topA | length }} artist:</h2>
+    <section>
+    {%for i in topA%}
+    <div class="window">
+        <p>{{i.name}}</p>
+        <img src="{{ i.images[0].url }}" width="150">
+    </div>
+    {% endfor %}
+    </section>
+
+    <h2 class="top">Your {{ topT | length }} tracks:</h2>
+    <section>
+    {%for i in topT%}
+    <div class="window">
+        <p>{{i.name}}</p>
+        <img src="{{ i.album.images[0].url }}" width="150">
+    </div>
+    {% endfor %}
+    </section> -->
+
+
+
+ </body>
+ </html>
