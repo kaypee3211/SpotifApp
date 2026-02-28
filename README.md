@@ -7,9 +7,9 @@
 - APIs used: Web API
 
 2.Your env
-pip install flask
-pip install spotipy
+- pip install flask
+- pip install spotipy
 
 
 3.Starting app
-python server.py
+- python server.py
